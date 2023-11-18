@@ -13,3 +13,13 @@ Hangman is a classic game in which a player thinks of a word and the other playe
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
 
 The overall aim is to put into practice the various skills learnt so far over the AICore bootcamp. And to make a fun little game in the progress of course. 
+
+So far the project consists of a word list, a module that picks a random word from tht list and 2 functions: one to check the guess is valid and a one asks for input then checks the guess by calling the first function.
+
+## Installation Instructions 
+
+## Usage Instructions 
+
+## File Structure of the project 
+
+# License information
