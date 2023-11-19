@@ -14,7 +14,7 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 The overall aim is to put into practice the various skills learnt so far over the AICore bootcamp. And to make a fun little game in the progress of course. 
 
-So far the project consists of a word list, a module that picks a random word from tht list and 2 functions: one to check the guess is valid and a one asks for input then checks the guess by calling the first function.
+So far the project consists of a word list, a module that picks a random word from tht list and 2 functions: one to check the guess is valid and a one asks for input then checks the guess by calling the first function. These fuctions are defined as methods within the class Hangman. 
 
 ## Installation Instructions 
 
