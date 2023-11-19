@@ -1,4 +1,4 @@
-# Milestone 2 -- Hangman
+# Hangman
 
 Table of Contents (if the README file is long)
 Description (what it does, the aim of the project, and what you learned)
