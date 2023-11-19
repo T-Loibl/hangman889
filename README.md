@@ -1,6 +1,6 @@
 # Hangman
 
-Table of Contents (if the README file is long)
+Table of Contents 
 Description (what it does, the aim of the project, and what you learned)
 Installation instructions
 Usage instructions
