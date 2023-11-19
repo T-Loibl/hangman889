@@ -22,7 +22,7 @@ In order to install simply copy the file from the GitHub repository to your loca
 
 ## Usage Instructions 
 
-Run the file in terminal using the command line `python milestone_5.py` and follow the sunsequent prompts. Alternatively the code can be run in a notebook such as Jupyter or Google Collab.
+Run the file in terminal using the command line `python milestone_5.py` and follow the subsequent prompts. Alternatively the code can be run in a notebook such as Jupyter or Google Collab.
 
 ## File Structure of the project 
 
