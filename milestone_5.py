@@ -5,15 +5,29 @@ word_list = ["cherry", "tangerine", "pineapple", "banana", "kiwi"]
 class Hangman: 
     def __init__(self, word_list, num_lives=5):
         """
-        Initialise Hangman game. 
+        Initialises Hangman game. 
+        The game will ask the user for a letter and check if it is in the word.
+        It starts with a default number of lives and a random word from the word_list.
         
         Parameters: 
-        - word_list (list): List of words that can be picked.
-        - word (str): The randomly chosen word from word_list.
-        - word_guessed (list): A list of letters in word
-        - num_letters (int): The number of unique letters in the word that have not been guessed yet.
-        - num_lives (int): Number of lives the player has.
-        - list_of_guesses (list): A list of the guesses that have been made.
+        ----------
+        - word_list (list): 
+            List of words that can be picked
+        - num_lives (int): 
+            Number of lives the player has
+
+        Attributes:
+        ----------
+        - word (str): 
+            The randomly chosen word from word_list
+        - word_guessed (list): 
+            A list of letters in word
+        - num_letters (int): 
+            The number of unique letters in the word that have not been guessed yet
+        - num_lives (int):
+            The number of lives the player has
+        - list_of_guesses (list): 
+            A list of the guesses that have been made
         """
         self.word_list = word_list
         self.word = random.choice(self.word_list)
@@ -25,9 +39,6 @@ class Hangman:
     def _check_guess(self, guess):
         """
         Method which checks that the guessed letter is in the word, then updates word_guessed, num_letters and num_lives accordingly. 
-        
-        Parameters: 
-        - guess (str): The guessed letter
         """
         guess = guess.lower()
         if guess in self.word: 
@@ -69,6 +80,11 @@ def play_game(word_list):
         else: 
             print(f"Congratulations! The word was {game.word}. You won!")
             break
+    pass
+
+if __name__ == '__main__':
+    word_list = ["cherry", "tangerine", "pineapple", "banana", "kiwi"]
+    play_game(word_list)
 
 play_game(word_list)
 
